@@ -1,5 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { useNavigate, Link } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
+
 import {
   Carousel,
   CarouselContent,
@@ -13,7 +13,6 @@ export const Route = createFileRoute("/")({
 });
 
 function RouteComponent() {
-  const navigate = useNavigate();
   return (
     <>
       <section className="hero">
