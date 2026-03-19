@@ -104,7 +104,7 @@ function RouteComponent() {
                   <button className="modal-close">
                     <X />
                   </button>
-                  <img src={selectedImage} className="modal-img" />
+                  <img src={selectedImage} alt="" className="modal-img" />
                 </button>
               )}
             </article>
